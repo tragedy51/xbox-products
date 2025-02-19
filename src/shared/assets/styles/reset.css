@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  src: url("../fonts/SFPRODISPLAYREGULAR.OTF");
+  font-family: XboxFont;
+}
+
+body {
+  background: #efefef;
+  overflow-x: hidden;
+  font-family: XboxFont;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
